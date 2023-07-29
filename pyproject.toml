@@ -11,6 +11,9 @@ packages = [{include = "clickhouse_benchmark_py"}]
 python = "3.11.*"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
